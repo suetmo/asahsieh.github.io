@@ -1,0 +1,124 @@
+<html>
+
+	<head>
+		<style>
+		
+		body
+		{
+			margin:0;
+			padding:0;
+		}
+		
+		.bottom ul
+		{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			background-color:#bebebe;
+		}
+		
+		.bottom ul li
+		{
+			float:left;
+			width:25%;
+		}
+		
+		.siteHeader ul
+		{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+		}
+		
+		.siteHeader ul li
+		{
+			float:left;
+			width:25%;
+		}
+		
+		.siteHeader ul li a:link,a:visited
+		{
+			display:block;
+			font-weight:bold;
+			color:#FFFFFF;
+			background-color:#bebebe;
+			text-align:center;
+			padding:4px;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+		
+		.siteHeader ul li a:hover,a:active
+		{
+			background-color:#cc0000;
+		}
+		
+		.pic 
+		{
+			width:auto;
+			height:auto;
+			text-align:center;
+		}
+		
+		.pic img
+		{
+			height:80%;
+			
+		}
+		
+		.inside
+		{
+		}
+		
+		</style>
+	</head>
+
+	<body>
+	
+	<script>
+	function changeImage()
+		{
+			element=document.getElementById('myimage')
+			if (element.src.match("maxresdefault"))
+			{
+				element.src="http://upload.wikimedia.org/wikipedia/commons/c/c5/Japanese_cruiser_Kitakami_in_1935.jpg";
+			}
+			else
+			{
+				element.src="http://i1.ytimg.com/vi/yQ8ge_eI10c/maxresdefault.jpg";
+			}
+}
+</script>
+
+	<div class="siteHeader">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#about">About</a></li>
+		</ul>
+	</div>
+	</body>
+	
+	<div class="pic">
+		<img id="myimage" onclick="changeImage()" src="http://i1.ytimg.com/vi/yQ8ge_eI10c/maxresdefault.jpg" />
+	</div>
+	
+	<div class="inside">
+		<h1> 古不印之亮</h1>
+
+		<p>
+		非提相花光資心水景，巴但倒起知有可什西面子曾，有場出。獨手只。兒能能吃輕；力臺自，聲有大害是要源以速家他我取是情，藝是她劇學求人、自內白效他客不求作的過上童由亮片白寫國資巴安處到動向及弟、因來面關線民院我一房家的。平雙一中歷動入？都們不果風點眼條花深辦開圖在你大發美水是局不上？會日兩報增經學點方你不量的頭前心傳話最，市起父相發經願已臺因前常水做、新座合。山病去自。每格去為做過小查車量空年比環我。道小足花化火他大！然體看入法不電人於早、的不加會長各必原兒意李體樂金雙動要管保健費？
+		</p>
+	</div>
+	
+	<div class="bottom">
+		<ul>
+			<li>地址:30010 新竹市大學路1001號
+			<li>電話：886-3-5712121
+		</ul>
+	</div>
+	
+</html>
